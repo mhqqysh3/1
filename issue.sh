@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 生成静态文件，Hugo 会将文件生成到 `public` 目录
-hugo
+hugo server -D
 
 # 删除目标仓库 `mhqqysh3_2.github.io` 中现有的文件
 rm -rf ../mhqqysh3_2.github.io/*
